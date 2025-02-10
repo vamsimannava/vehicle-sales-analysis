@@ -1,0 +1,12 @@
+tidyverse
+ggplot2
+dplyr
+leaps
+caret
+MASS
+glmnet
+This allows others to install dependencies by running:
+
+r
+
+install.packages(rea
