@@ -1,0 +1,21 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore R environment files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignore raw datasets (if sensitive or too large)
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Ignore model files (since they are large)
+results/model_evaluation/*.rds
+results/model_evaluation/*.pkl
+
+# Ignore unnecessary temp files
+*.log
+*.tmp
+*.cache/
