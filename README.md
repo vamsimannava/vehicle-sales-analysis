@@ -11,29 +11,6 @@ This project analyzes vehicle sales data to:
 The dataset is sourced from Kaggle and contains 558,838 rows & 16 columns covering vehicle features, sales prices, and market trends.
 
 
-Project Structure
-
-📂 vehicle-sales-analysis/
-├── 📂 data/                            # Dataset Storage
-│   ├── 📂 raw/                         # Raw Data
-│   ├── 📂 processed/                    # Cleaned Data
-│
-├── 📂 scripts/                         # R Scripts for Analysis
-│   ├── data_preprocessing.R            # Cleans and processes data
-│   ├── exploratory_analysis.R          # Performs EDA
-│   ├── regression_model.R              # Predicts selling price
-│   ├── logistic_regression_model.R     # Classifies sales
-│   ├── main_analysis.R                 # Runs full analysis
-│
-├── 📂 results/                         # Stores analysis results
-│   ├── 📂 eda_visuals/                  # EDA Visualizations
-│   ├── 📂 model_evaluation/              # Model Summaries and Metrics
-│
-├── README.md                           # Project Documentation
-├── requirements.txt                     # List of R Packages Used
-└── .gitignore                           # Files to Ignore in GitHub
-
-
 Key Research Questions
 
 1. What is the best model to predict vehicle selling prices?
