@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = sellingprice ~ mmr + year + condition, data = train)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-86781   -665     24    755 207149 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  6.906e+04  1.937e+03   35.65   <2e-16 ***
+mmr          9.857e-01  3.794e-04 2597.82   <2e-16 ***
+year        -3.490e+01  9.659e-01  -36.14   <2e-16 ***
+condition    3.760e+01  2.340e-01  160.65   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1675 on 330624 degrees of freedom
+Multiple R-squared:  0.9697,	Adjusted R-squared:  0.9697 
+F-statistic: 3.53e+06 on 3 and 330624 DF,  p-value: < 2.2e-16
+
