@@ -76,6 +76,6 @@ Test on larger datasets
 
 Author & Credits
 
-Author: [Your Name]
+Author: Hari Vamsi Mannava
 Dataset: Kaggle - Vehicle Sales Data
-GitHub Repository: [Your GitHub Link]
+
